@@ -8,4 +8,4 @@ resources:
 images:
   - name: aplicatie
     newName: europe-west1-docker.pkg.dev/ino-ols-newops-sbx/proiectradu/nginx
-    newTag: 1.0
+    newTag: "1.0"
