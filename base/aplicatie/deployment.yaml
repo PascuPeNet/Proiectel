@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: aplicatie
-        image: aplicatie
+        image: europe-west1-docker.pkg.dev/ino-ols-newops-sbx/proiectradu/nginx
         ports:
         - containerPort: 80
