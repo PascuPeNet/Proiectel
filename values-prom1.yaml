@@ -725,7 +725,7 @@ serverFiles:
   #           summary: 'Instance {{ $labels.instance }} down'
   ## DEPRECATED DEFAULT VALUE, unless explicitly naming your files, please use alerting_rules.yml
     groups:
-      - name: GKE Objects
+      - name: Container
         rules:
           - alert: Container_HighCpuUtilization
             expr: (sum by(pod,name) (rate(container_cpu_usage_seconds_total{name!=""}[3m]))*100)>1
